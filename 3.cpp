@@ -7,7 +7,7 @@ void draw(int x, int y, int n)
 {
 
 	if (n == 1) {
-		a[x][y] = '+';  // 当 sz == 1 时，只有一个点，赋值为 '+'
+		a[x][y] = '+';  // 当 n == 1 时，只有一个点，赋值为 '+'
 		return;
 	}
 	int cx = x + n / 2;
